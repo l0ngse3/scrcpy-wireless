@@ -5,4 +5,4 @@ echo "Unplug your phone"
 read
 ./adb.exe connect $DEVICE_IP:5555
 
-./scrcpy
+./scrcpy --always-on-top
